@@ -1,4 +1,9 @@
 # Referências e Documentação
+* [Comandos Bash](/bash/readme.md)
+* [Shell Script](/shellscript/readme.md)
+* [Docker](/docker/readme.md)
+* [Git](/git/readme.md)
+---
 ### [Chocolatey](https://chocolatey.org/)
 #### Gerenciador de pacotes Windows
 - **<ins>choco</ins>**
@@ -19,8 +24,3 @@
 * Caracteres Especiais:
   * **_¡_** Alt + 0161
   * **_¿_** Alt + 0191
----
-* [Comandos Bash](/Bash/readme.md)
-* [Shell Script](/ShellScript/readme.md)
-* [Docker](/Docker/readme.md)
-* [Git](/Git/readme.md)
