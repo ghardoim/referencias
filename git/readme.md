@@ -44,7 +44,7 @@
   * **<ins>config</ins>**
     * **<ins>--global</ins>**: Define as configurações para todos os repositórios.
     * **<ins>--local</ins>**: Define configurações apenas para o repositório onde está sendo executado.
-
+  * **<ins>mv</ins> _nomeantigo_ _nomenovo_**: Commita renomeação de pastas.
 - Arquivos auxiliares:
   * **<ins>.gitignore</ins>**: O Git **não** monitora os arquivos listados aqui.
   * **<ins>.gitkeep</ins>**: Para monitorar diretórios vazios.
