@@ -1,7 +1,6 @@
 [back](../readme.md)
 # [Git CLI](https://git-scm.com/)
 ## Gerenciador de código fonte
-
 - **<ins>git</ins>**
   * **<ins>status</ins>**: Mostra quais arquivos foram modificados.
   * **<ins>add</ins>**

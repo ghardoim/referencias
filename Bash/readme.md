@@ -1,7 +1,6 @@
 [back](../readme.md)
 # Comandos Bash
 ## Linha de comandos para teminais baseados em Linux.
-
 * **<ins>echo -n</ins>**: Imprime na tela sem pular linha.
 * **_comando_ <ins>\></ins> _arquivo_**: Substitui o conteúdo do arquivo com a saída do comando.
   * **_comando_ <ins>&\></ins> _arquivo_**: Saída de erros.

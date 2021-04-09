@@ -1,7 +1,6 @@
 [back](../readme.md)
 # [Docker CLI](https://www.docker.com/)
 ## Gerenciador de containers (ambiente como código)
-
 - **<ins>docker</ins>**
   * **<ins>run</ins> _flags_ _imagem_ _comando_**
     * **<ins>-it</ins> _nomecontainer_**: Sobe um container e conecta com o terminal corrente. 

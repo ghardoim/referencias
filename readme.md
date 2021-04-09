@@ -22,6 +22,5 @@
 ---
 * [Comandos Bash](/Bash/readme.md)
 * [Shell Script](/ShellScript/readme.md)
-* [Chocolatey](/Chocolatey/readme.md)
 * [Docker](/Docker/readme.md)
 * [Git](/Git/readme.md)

@@ -1,7 +1,6 @@
 [back](../readme.md)
 # [Shell Script](https://pt.wikipedia.org/wiki/Shell_script)
 ## Sintaxe de arquivos .sh
-
 * **<ins>#!/bin/bash</ins>**: Interpretador dos comandos. Primeira linha de qualquer arquivo .sh
 * **<ins>$#</ins>**: Armazena a quantidade de argumentos passados.
 * **<ins>$$</ins>**: Armazena o ID do script que está em execução.
