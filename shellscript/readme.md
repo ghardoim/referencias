@@ -42,34 +42,34 @@
   fi
 ```
 ```bash
-  case codição in
+  case variavel in
     pattern)
       ...
     ;;
-    *) #default
+    *)                      #default
       ...
     ;;
   esac
 ```
 ### Repetições
 ```bash
-  while condição #enquando
+  while condição            #enquando
   do
     break
     ...
   done
 ```
 ```bash
-  for variavel in lista #para cada
+  for variavel in lista     #para cada
   do
     continue
     ...
   done
 ```
 ```bash
-  select variavel in lista #para cada, escolha um
+  select variavel in lista  #para cada, escolha um
   do
-    shift #próxima variável
+    shift                   #próxima variável
     ...
   done
 ```

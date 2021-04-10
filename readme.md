@@ -3,6 +3,7 @@
 * [Shell Script](/shellscript/readme.md)
 * [Docker](/docker/readme.md)
 * [Git](/git/readme.md)
+* [VBA](/vba/readme.md)
 ---
 ### [Chocolatey](https://chocolatey.org/)
 #### Gerenciador de pacotes Windows
@@ -13,6 +14,7 @@
   * **<ins>uninstall</ins> _nomepacote_**: Desinstalação do pacote.
 ---
 * **<ins>code</ins> _path_**: CLI do VSCode para abrir arquivos e diretórios.
+* **<ins>shutdown -r</ins>**: Reinicia o computador.
 ---
 * Status HTTP:
   * **<ins>1</ins>XX**: Informação
