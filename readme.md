@@ -10,7 +10,7 @@
 * [Robin](/Robin/readme.md)
 * [VBA](/vba/readme.md)
 * [Git](/git/readme.md)
-* [C](/C/readme.md)
+* [C](/c/readme.md)
 ---
 ### [Chocolatey](https://chocolatey.org/)
 #### Gerenciador de pacotes Windows
