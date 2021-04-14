@@ -1,9 +1,16 @@
 # Referências e Documentação
+* [Automation Anywhere](/automationanywhere/readme.md)
+* [CI/Jenkins/Groovy](/cijenkinsgroovy/readme.md)
 * [Comandos Bash](/bash/readme.md)
+* [Google Script](/googlescript/readme.md)
 * [Shell Script](/shellscript/readme.md)
+* [Script Lab](/scriptlab/readme.md)
 * [Docker](/docker/readme.md)
-* [Git](/git/readme.md)
+* [Python](/python/readme.md)
+* [Robin](/Robin/readme.md)
 * [VBA](/vba/readme.md)
+* [Git](/git/readme.md)
+* [C](/C/readme.md)
 ---
 ### [Chocolatey](https://chocolatey.org/)
 #### Gerenciador de pacotes Windows

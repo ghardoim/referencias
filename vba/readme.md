@@ -9,6 +9,7 @@
 ---
 ### Operadores lógicos
 ```vb
+  True / False
   Not 'não
   And 'e
   Or  'ou
@@ -21,16 +22,16 @@
 ```
 ### Declaração de variáveis
 ```vb
-  Dim variavel As New Tipo: Set variavel =     Nothing     'objetos
-  Dim variavel As Tipo: variavel = valor                'Tipos primitivos
-  Const variavel As Tipo = valor                        'constantes
+  Dim variavel As Tipo: Set variavel = Nothing        'objetos
+  Dim variavel As Tipo: variavel = valor              'tipos primitivos
+  Const variavel As Tipo = valor                      'constantes
 
   With objeto
     .atributo
     .método
   End With
 
-  Me                                      'this
+  Me                                                  'this
 ```
 ### Condicionais
 ```vb
@@ -46,32 +47,32 @@
   Select Case variavel
     Case
       ...
-    Case Is                       'comparador lógico
+    Case Is                                   'comparador lógico
       ...
-    Case Else                     'default
+    Case Else                                 'default
       ...
   End Select
 ```
 ### Repetições
 ```vb
-  For contador = inicio To final  'faça de x até y
+  For contador = inicio To final Step n       'faça de x até y de n em n
     ...
     Exit For
   Next
 ```
 ```vb
-  For Each item in lista          'para cada
+  For Each item in lista                      'para cada
     ...
   Next
 ```
 ```vb
-  Do Until condição               'faça até
+  Do Until condição                           'faça até
     ...
     Exit Do
   Loop
 ```
 ```vb
-  Do While condição               'faça enquanto
+  Do While condição                           'faça enquanto
     ...
   Loop
 ```
@@ -103,7 +104,7 @@ label:
 ```
 #### PowerPoint
 ```vb
-  Dim pptApp As PowerPoint.Application: Set pptApp = CreateObject("PowerPoint.Application")
+  Dim pptApp As PowerPoint.Application: Set pptApp = New PowerPoint.Application
   Dim documento As Presentation: Set documento = pptApp.Presentation.Add
 ```
 #### OutLook
