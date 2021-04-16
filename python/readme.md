@@ -23,6 +23,7 @@
   >=    #maior ou igual
   <     #menor que
   <=    #menor ou igual
+  **    #potenciação
 ```
 ### Declaração de variáveis
 ```python

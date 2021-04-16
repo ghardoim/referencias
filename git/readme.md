@@ -1,5 +1,6 @@
 [back](../readme.md)
 # [Git CLI](https://git-scm.com/)
+* **<ins>gitk</ins>**: Abre a interface gráfica padrão na raiz do repositório.
 ## Gerenciador de código fonte
 - **<ins>git</ins>**
   * **<ins>status</ins>**: Mostra quais arquivos foram modificados.
@@ -43,6 +44,7 @@
   * **<ins>cherry-pick</ins> _hashcommit_**: Traz um commit para a branch atual.
   * **<ins>config</ins>**
     * **<ins>--global</ins>**: Define as configurações para todos os repositórios.
+    * **<ins>--system core.longpaths true</ins>**: Habilita o clone de repositórios com nomes extensos.
     * **<ins>--local</ins>**: Define configurações apenas para o repositório onde está sendo executado.
   * **<ins>mv</ins> _nomeantigo_ _nomenovo_**: Commita renomeação de pastas.
 - Arquivos auxiliares:
