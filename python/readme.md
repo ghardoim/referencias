@@ -32,13 +32,21 @@
 ### Condicionais
 ```python
   if condição:
+    ...
   elif condição:
+    ...
   else:
 ```
 ### Repetições
 ```python
   for i, item in enumerate(lista):
+    ...
+    break
+```
+```python
   while condição:
+    ...
+    continue
 ```
 ### Funções
 ```python
@@ -48,5 +56,7 @@
 ### Tratamento de erros
 ```python
   try:
+    ...
   except:
+    ...
 ```
