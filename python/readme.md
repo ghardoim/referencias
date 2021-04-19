@@ -29,8 +29,24 @@
 ```python
   variavel = None     #objeto nulo
 ```
+### Condicionais
+```python
+  if condição:
+  elif condição:
+  else:
+```
+### Repetições
+```python
+  for i, item in enumerate(lista):
+  while condição:
+```
 ### Funções
 ```python
   def nome(parametro: tipo) -> tipo_retorno:
     pass
+```
+### Tratamento de erros
+```python
+  try:
+  except:
 ```
