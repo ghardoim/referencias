@@ -28,6 +28,9 @@
 ### Declaração de variáveis
 ```python
   variavel = None     #objeto nulo
+  variavel = []       #lista
+  variavel = ()       #tupla
+  variavel = {}       #dicionário
 ```
 ### Condicionais
 ```python
