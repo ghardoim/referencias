@@ -43,7 +43,7 @@
 ```
 ### Repetições
 ```python
-  for i, item in enumerate(lista):
+  for i, item in enumerate(lista):    #unpack
     ...
     break
 ```
@@ -57,10 +57,23 @@
   def nome(parametro: tipo) -> tipo_retorno:
     pass
 ```
+```python
+  def nome(parametro, *args):              #uma tupla de positional arguments
+    ...
+```
+```python
+  def nome(parametro, **kwargs):           #um dicionário de keywords arguments
+    ...
+```
 ### Tratamento de erros
 ```python
   try:
     ...
-  except:
+  except TipoDoErro as erro:
+    raise Exception()                 #lança uma exception
+    ...
+  else:                               #caso não dê erro
+    ...
+  finally:                            #com ou sem erro
     ...
 ```
