@@ -27,6 +27,7 @@
 ```
 ### Declaração de variáveis
 ```python
+  del variavel        #remove o objeto
   variavel = None     #objeto nulo
   variavel = []       #lista
   variavel = ()       #tupla
