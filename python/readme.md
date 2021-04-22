@@ -32,6 +32,7 @@
   variavel = []       #lista
   variavel = ()       #tupla
   variavel = {}       #dicionário
+  / int / float / str / bool / list / tuple / dict / object 
 ```
 ### Condicionais
 ```python
@@ -52,18 +53,34 @@
     ...
     continue
 ```
+#### List Comprehension
+```python
+  lista = [ expressão for item in iterable if codição ]                               #cria uma nova lista filtrada
+```
+```python
+  lista = [ expressão if condição else outra_expressão for item in iterable ]         # //  //   //   //   de mesmo tamanho
+```
 ### Funções
 ```python
-  def nome(parametro: tipo) -> tipo_retorno:
+  def nome(parametro: tipo) -> tipo_retorno:               #annotations
     pass
 ```
 ```python
-  def nome(parametro, *args):              #uma tupla de positional arguments
+  def nome(parametro, *args):                              #uma tupla de positional arguments
     ...
 ```
 ```python
-  def nome(parametro, **kwargs):           #um dicionário de keywords arguments
+  def nome(parametro, **kwargs):                           #um dicionário de keywords arguments
     ...
+```
+#### Lambda Expressions
+```python
+  nova_função = lambda parametro: expressão_retorno        #nova_função(parametro)
+```
+```python
+  def função_lambda(parametro):
+    return lambda argumento: argumento + parametro
+  nova_função = função_lambda(parametro)                   #nova_função(argumento)
 ```
 ### Tratamento de erros
 ```python
