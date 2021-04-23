@@ -4,6 +4,7 @@
 * **<ins>1048576</ins>**: Última linha do excel.
 * **<ins>16384</ins>**: Última coluna do excel.
 * **<ins>Alt + F11</ins>**: Atalho para o editor do VBA.
+* **<ins>Ctrl + Break</ins>**: Atalho para interromper uma execução.
 ---
 * **<ins>'</ins>**: Indica que a linha é um comentário.
 ---
