@@ -6,11 +6,14 @@
 * **<ins>source</ins> dir_name<ins>/Script/activate</ins>**: Ativa o ambiente virtual criado.
 * **<ins>deactivate</ins>**: Desativa o ambiente virtual. 
 * **<ins>pip install</ins> pacote**: Instala um pacote de dependência.
+* **<ins>python -m pip install --upgrade pip</ins>**: Atualiza o pip.
+* **<ins>r"</ins>string<ins>"</ins>**: Raw string. Usar quando informar paths.
+* **<ins>f"{</ins>string<ins>}"</ins>**: Format string.
 ---
 ```python
   from lib import pacote as apelido
 ```
-## Operadores lógicos
+### Operadores lógicos
 ```python
   True / False
   not   #não
@@ -33,6 +36,8 @@
   variavel = ()       #tupla
   variavel = {}       #dicionário
   / int / float / str / bool / list / tuple / dict / object 
+
+  with open("path_arquivo", "r | w | a") as arquivo:
 ```
 ### Condicionais
 ```python
@@ -93,4 +98,33 @@
     ...
   finally:                            #com ou sem erro
     ...
+```
+### Integrações
+#### Pandas
+```python
+  import pandas as pd
+
+  dataframe = pd.read_ [csv, json, excel] (nome_arquivo, sep = ";")
+  novo_df = dataframe["nome_coluna"][linha]
+  
+  pd.to_ [csv, json, excel] (nome_arquivo, sep = ";")
+```
+#### Path
+```python
+  from pathlib import Path
+  caminho = Path.cwd() / Path("arquivo")                 # concatena Paths
+```
+#### Email
+##### Gmail
+```python
+  import yagmail
+  usuario = yagmail.SMTP(email, senha)
+  usuario.send(to = [], subject = "", contents = "", attachment = [])
+```
+##### Outlook
+```python
+  import win32com.client as win32                      # integração com o pacote office
+  
+  outlook = win32.Dispatch("outlook.application")
+  email = outlook.CreateItem(0)                          # mesmo processo do VBA
 ```
