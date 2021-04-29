@@ -123,8 +123,17 @@
 ```
 ##### Outlook
 ```python
-  import win32com.client as win32                      # integração com o pacote office
+  import win32com.client as win32                        # integração com o pacote office
   
   outlook = win32.Dispatch("outlook.application")
   email = outlook.CreateItem(0)                          # mesmo processo do VBA
+```
+#### SQL
+```python
+  import pyodbc
+  dados_conexao = ("Drive={};Server=NomeServidor;Database=NomeBaseDeDados")
+  conexao = pyodbc.connect(dados_conexao)
+  
+  import pandas as pd  
+  sql_df = pd.read_sql("CONSULTA SQl", conexao)
 ```
