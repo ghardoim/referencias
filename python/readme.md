@@ -137,3 +137,12 @@
   import pandas as pd  
   sql_df = pd.read_sql("CONSULTA SQl", conexao)
 ```
+#### SQL
+```python
+  from selenium.webdriver.common.keys import Keys                         # Keys.RETURN - Enter
+  from selenium import webdriver
+  drive = webdriver.Navegador()                                           # .Chrome() / .Edge() / .Firefox()
+
+  elemento = drive.find_element_by_ [id, classe, tag, name, xpath]        # retorna 1 elemento
+  elementos = drive.find_elements_by_ [classe, tag, name, xpath]          # retorna uma lista
+```
