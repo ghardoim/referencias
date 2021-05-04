@@ -103,6 +103,9 @@
 #### Pandas
 ```python
   import pandas as pd
+  import pandas_datareader.data as pd_dr
+  import matplotlib.pyplot as plt
+  import numpy as np
 
   dataframe = pd.read_ [csv, json, excel] (nome_arquivo, sep = ";")
   novo_df = dataframe["nome_coluna"][linha]
@@ -145,4 +148,24 @@
 
   elemento = drive.find_element_by_ [id, classe, tag, name, xpath]        # retorna 1 elemento
   elementos = drive.find_elements_by_ [classe, tag, name, xpath]          # retorna uma lista
+```
+#### APIs
+```python
+  import requests
+  import json
+
+  resposta = requests.get("")                         # retorna o HTTP Status Code
+  resposta_dict = resposta.json()                     # transforma a resposta json em dicionário python
+```
+#### Twilio
+```python
+  from twilio.rest import Client
+  client = Cliente(account_sid, token)
+  mensagem = client.messages.create(to = destino, from_ = remetente, body = "")         # destino é um número verificado.
+```
+#### ArcGis
+- `conda install -c esri arcgis`
+```python
+  from arcgis.gis import GIS
+  from arcgis.mapping import WebMap
 ```
