@@ -33,6 +33,8 @@
   End With
 
   Me                                                  'this
+
+  variavel = IIf(condicao, valor_true, valor_false)
 ```
 ### Condicionais
 ```vb
