@@ -7,6 +7,8 @@
 * **<ins>deactivate</ins>**: Desativa o ambiente virtual. 
 * **<ins>pip install</ins> pacote**: Instala um pacote de dependência.
 * **<ins>python -m pip install --upgrade pip</ins>**: Atualiza o pip.
+* **<ins>pyinstaller -w</ins> arquivo.py**: Gera o executável de um script simples.
+* **<ins>auto-py-to-exe</ins>**: Gera o executável de um script mais robusto.
 * **<ins>r"</ins>string<ins>"</ins>**: Raw string. Usar quando informar paths.
 * **<ins>f"{</ins>string<ins>}"</ins>**: Format string.
 ---
