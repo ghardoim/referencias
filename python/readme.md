@@ -112,6 +112,8 @@
   dataframe = pd.read_ [csv, json, excel] (nome_arquivo, sep = ";")
   novo_df = dataframe["nome_coluna"][linha]
   
+  filtra_df = dataframe.loc[linha, coluna]            # ':' -> todas | 'where' -> de acordo com condição
+
   pd.to_ [csv, json, excel] (nome_arquivo, sep = ";")
 ```
 #### Path
