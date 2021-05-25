@@ -113,6 +113,7 @@
   novo_df = dataframe["nome_coluna"][linha]
   
   filtra_df = dataframe.loc[linha, coluna]            # ':' -> todas | 'where' -> de acordo com condição
+  filtra_df = dataframe.iloc[lIndex, cIndex]          # índice linha / coluna
 
   pd.to_ [csv, json, excel] (nome_arquivo, sep = ";")
 ```
