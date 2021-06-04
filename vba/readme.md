@@ -14,7 +14,7 @@
   Not 'não
   And 'e
   Or  'ou
-  ==  'igual
+  =   'igual
   <>  'diferente
   >   'maior que
   >=  'maior ou igual
@@ -96,8 +96,10 @@
 ### Tratamento de erros
 ```vb
 label:
-  On Error Resume Next
+  On Error Resume Next                        'ignora os próximos erros
   On Error GoTo label
+  On Error GoTo 0                             'reseta o tratamento de erro
+  Resume label                                'continua a partir de determinado ponto
 ```
 ### Integrações
 #### Word
@@ -114,4 +116,12 @@ label:
 ```vb
   Dim emailApp As OutLook.Application: Set emailApp = CreateObject("OutLook.Application")
   Dim email As MailItem: Set email = emailApp.CreateItem(0)
+```
+#### Internet Explorer
+```vb
+  Dim IEapp As InternetExplorer.Application: Set IEapp = CreateObject("InternetExplorer.Application")
+  IEapp.Navigate (link)
+  Do While IEapp.Busy And IEapp.ReadyState <> "READYSTATE_COMPLETE"
+    DoEvents                                  'enquanto está ocupado e não está pronto, carregue a página
+  Loop
 ```
