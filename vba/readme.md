@@ -6,7 +6,7 @@
 * **<ins>Alt + F11</ins>**: Atalho para o editor do VBA.
 * **<ins>Ctrl + Break</ins>**: Atalho para interromper uma execução.
 ---
-* **<ins>'</ins>**: Indica que a linha é um comentário.
+* **<ins>'</ins>**: Comentário.
 ---
 ### Operadores lógicos
 ```vb
