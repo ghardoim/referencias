@@ -125,3 +125,9 @@ label:
     DoEvents                                  'enquanto está ocupado e não está pronto, carregue a página
   Loop
 ```
+#### Selenium
+* https://github.com/florentbr/SeleniumBasic/releases/download/v2.0.9.0/SeleniumBasic-2.0.9.0.exe
+```vb
+  Dim browserAPP As New WebDriver
+  browserAPP.Start "chrome"                   'drive precisa estar no path
+```
