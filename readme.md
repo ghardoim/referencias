@@ -23,6 +23,7 @@
 ---
 * **<ins>code</ins> _path_**: CLI do VSCode para abrir arquivos e diretórios.
 * **<ins>shutdown -r</ins>**: Reinicia o computador.
+* **<ins>copy</ins> _sourcefiles_ _destfile_**: Compila muitos arquivos em um só.
 ---
 * Status HTTP:
   * **<ins>1</ins>XX**: Informação
