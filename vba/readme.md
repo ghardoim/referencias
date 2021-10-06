@@ -131,3 +131,12 @@ label:
   Dim browserAPP As New WebDriver
   browserAPP.Start "chrome"                   'drive precisa estar no path
 ```
+#### HttpRequest
+```vb
+  Dim request As New WinHttp.WinHttpRequest
+  With request
+    .Open "METHOD", "URL", False
+    .Send
+  End With
+  response = request.ResponseText
+```
