@@ -64,7 +64,7 @@
   Next
 ```
 ```vb
-  For Each item in lista                      'para cada
+  For Each item In lista                      'para cada
     ...
   Next
 ```
@@ -139,4 +139,11 @@ label:
     .Send
   End With
   response = request.ResponseText
+```
+#### Arquivos
+```vb
+  Set folder = CreateObject("Scripting.FileSystemObject").GetFolder("path")
+  For Each file In folder.Files
+    file.Name
+  Next
 ```
