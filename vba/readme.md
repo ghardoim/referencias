@@ -7,6 +7,7 @@
 * **<ins>Ctrl + Break</ins>**: Atalho para interromper uma execução.
 ---
 * **<ins>'</ins>**: Comentário.
+* WorksheetFunction
 ---
 ### Operadores lógicos
 ```vb
