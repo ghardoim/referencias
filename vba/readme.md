@@ -133,6 +133,7 @@ label:
   browserAPP.Start "chrome"                   'drive precisa estar no path
 ```
 #### HttpRequest
+* https://github.com/VBA-tools/VBA-JSON/releases/tag/v2.3.1
 ```vb
   Dim request As New WinHttp.WinHttpRequest
   With request
@@ -140,6 +141,7 @@ label:
     .Send
   End With
   response = request.ResponseText
+  Set jsonOBJ = JsonConverter.ParseJson(response)
 ```
 #### Arquivos
 ```vb
