@@ -7,6 +7,7 @@
 * [Script Lab](/scriptlab/readme.md)
 * [Docker](/docker/readme.md)
 * [Python](/python/readme.md)
+* [Robot](/robot/readme.md)
 * [Robin](/robin/readme.md)
 * [VBA](/vba/readme.md)
 * [CSS](/css/readme.md)
