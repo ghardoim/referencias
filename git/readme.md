@@ -47,6 +47,7 @@
     * **<ins>--system core.longpaths true</ins>**: Habilita o clone de repositórios com nomes extensos.
     * **<ins>--local</ins>**: Define configurações apenas para o repositório onde está sendo executado.
   * **<ins>mv</ins> _nomeantigo_ _nomenovo_**: Commita renomeação de pastas.
+  * **<ins>git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch</ins> _path_to_file_ <ins>" HEAD</ins>**: Remove um arquivo da história do repositório.
 - Arquivos auxiliares:
   * **<ins>.gitignore</ins>**: O Git **não** monitora os arquivos listados aqui.
   * **<ins>.gitkeep</ins>**: Para monitorar diretórios vazios.
